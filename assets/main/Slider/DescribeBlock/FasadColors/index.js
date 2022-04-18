@@ -9,6 +9,12 @@ class FacadColors{
 
         for (let i = 0; i < 7; i++) {
             const element = document.createElement('div');
+            element.addEventListener('click', (e)=>{
+                for (let i = 0; i < 7; i++) {
+                    e.target.parentElement.children[i].className ='unselectedColor';                  
+                }
+                e.target.className ='selectedColor';
+            })
             colorsSection.append(element);
         }
 

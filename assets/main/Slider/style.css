@@ -186,10 +186,7 @@ margin-top: 19px;
     margin-right: 13px;
     cursor: pointer;
 }
-.colors-section div:nth-child(1){
-    background-color: #F3F3F3;
-    border: solid 2px #384685;
-}
+
 .colors-section>div:nth-child(2){
     background-color: #F2EFDE;
 }
