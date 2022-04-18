@@ -3,8 +3,10 @@ class CatalogItem
     constructor(data)
     {
         this.data = data;
+        this.heartStatus =false;
     }
     
+    heartStatus = false;
 
     render(){
 
@@ -66,6 +68,17 @@ class CatalogItem
         const hearPicture = document.createElement('img');
         hearPicture.src ='assets/Images/redHeart.png';
         hearPicture.alt = 'heartImage';
+        hearPicture.addEventListener('click', ()=>{
+            if(this.heartStatus ===false){
+                hearPicture.src = 'assets/Images/fillHeart.png';
+                this.heartStatus = true;
+            }
+            else{
+                hearPicture.src = 'assets/Images/redHeart.png';
+                this.heartStatus = false;
+            }
+                
+        });
 
         section.append(buttonBuy);
         section.append(hearPicture);
