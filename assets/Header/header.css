@@ -1,0 +1,195 @@
+header{
+    font-family:'Mochiy Pop P One', sans-serif;
+}
+.services-block{
+    display: flex;
+    justify-content: space-between;
+    margin-left:227px;
+    margin-top: 21px;
+    margin-right: 200px;
+    
+}
+
+.services-block>ul>li>a{
+    cursor: pointer;
+}
+
+.about-as-info-section{
+    margin-left:227px;
+    margin-top: 21px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-section{
+    background-color: #A8D1E7;
+    width: 100%;
+    height: 60px;
+    margin-top: 31px;
+}
+.nav-section>nav{
+height: 100%;
+
+margin-left: 230px;
+margin-right: 230px;
+}
+.about-as-elem{
+    margin-right: 74px;
+}
+
+.services-list
+{
+    max-width: 30%;
+    min-width: 30%;
+}
+
+.services-lst-item
+{
+    width: 51px;
+    height: 18px;
+    line-height: 23px;
+}
+
+.servis-link
+{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1D1818;
+    font-family:'Mochiy Pop P One', sans-serif;
+}
+
+.add-serv-list{
+   
+    max-width: 20%;
+    width: 20%;
+    min-width: 20%;
+}
+
+.my-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-list>li{
+    width: 45%;
+}
+
+.line-border{
+    border-bottom: solid #E0E0E0 1px;
+    margin-top: 16px;
+    width: 1920px;
+}
+
+.logo-h1{
+    font-size: xx-large;
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-weight: 700;
+}
+
+.yel-bol{
+    margin-right: -35px;
+}
+
+.about-as-elem>a{
+    text-decoration: underline;
+    color: rgb(218, 64, 64);
+}
+
+.about-as-elem>p{
+    padding-bottom: 10px;
+    font-size: 16px;
+    min-width: 227px;
+}
+
+.about-as-elem>input{
+    width: 296px;
+    height: 45px;
+    border-radius: 25px;
+    border: solid #A8D1E7 1px;
+    padding: 0 20px;
+}
+
+.tel-p::before{
+    content: url(../Images/phone.svg);
+    padding-right: 15px;
+}
+
+.search-svg{
+    padding-top: -10px;
+    margin-left: -40px;
+    color: #A8D1E7;
+}
+
+.order-button{
+    border: solid #E13B3F 1px;
+    border-radius: 5px;
+    color: #E13B3F;
+    padding:5px 25px;
+    background-color: white;
+    margin: 5px 20px;
+    min-width: 177px;
+    cursor: pointer;
+}
+
+.geo::before{
+content: url(../Images/geo.svg);
+
+}
+
+.img-labels-section,.small-img-sections>div:nth-child(2),.small-img-sections{
+    display: flex;
+    align-items: center;
+
+}
+
+.small-img-item{
+    padding-right: 95px;
+    margin-left: -40px;
+}
+.img-labels-section>p{
+    padding-right: 70px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+.small-img-item>img{
+    cursor: pointer;
+}
+
+.small-img-item >p{
+    margin-left: 10px;
+    border: solid red 2px;
+    background-color: red;
+    border-radius: 7px;
+    width: 36px;
+    height: 19px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+   
+}
+
+.tel-p{
+    margin-bottom: 10px;
+}
+
+.nav-ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+}

@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-family:'PT Sans', sans-serif;
+}
+
+a,button{
+    cursor: pointer;
+}

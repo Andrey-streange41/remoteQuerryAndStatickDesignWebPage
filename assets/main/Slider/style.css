@@ -1,0 +1,243 @@
+.slider-box-and-descr{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+}
+
+.slider-box{
+    width: 50%;
+   border-radius: 8px;
+   border: solid grey 1px;
+   overflow: hidden;
+}
+
+.target-slider-Image{
+   background-size: contain;
+}
+
+.select-image{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.t-img{
+    width: 181px;
+    height: 180px;
+}
+
+.elipse{
+    position: absolute;
+    z-index: 1;
+    margin-left: -25px;
+    margin-top: 40px;
+    
+}
+
+.elipseRight{
+    z-index: 1;
+    position: absolute;
+    margin-left:740px;
+    margin-top: 40px;
+}
+
+.arrow-right{
+    z-index: 2;
+    position: absolute;
+    margin-left:760px;
+    margin-top: 62px;
+}
+
+.arrow-left{
+    z-index: 2;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: -5px;
+}
+
+.transportBlock{
+    display: flex;
+    overflow: hidden;
+}
+
+.descr-block{
+    width: 50%;
+    height: 80vh;
+    margin-left: 30px;
+}
+
+.row1{
+    display: flex;
+    align-items: flex-end;
+}
+
+.row1>h2{
+    margin-right: 62px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.row1>.stars-container{
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+.row1>p{
+    text-decoration: underline;
+    font-size: 16px;
+    color: #999999;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.row2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 420px;
+    width: 450px;
+    margin-top: 2%;
+    margin-left: 0px;
+}
+
+.row2>:nth-child(4){
+    margin-left: -80px;
+    margin-bottom: 10px;
+}
+
+.row2>p:nth-child(1){
+    padding-left: 0px;
+    margin: 0px;
+    color: #999999;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.row2>p:nth-child(2){
+
+color: #1D1818;
+font-size: 30px;
+font-weight: 400;
+font-family:'PT Sans', sans-serif;
+}
+
+.row3{
+    display: flex;
+    margin-top: 2%;
+}
+
+.row3>button{
+    color: #0E9F2E;
+    border: solid #0E9F2E 1px;
+    width: 109px;
+    height: 32px;
+    border-radius: 2px;
+    padding: 5px 13px;
+    background-color: white;
+    margin-right: 32px;
+}
+
+.row3>button:hover{
+    background-color: #0E9F2E;
+    color: white;
+    border: solid white 1px;
+}
+.row3>p{
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    column-rule: black;
+    cursor: pointer;
+}
+
+.blue-button{
+    background-color: white;
+    padding: 20px 0px;
+    border: #384685 solid 1px;
+    border-radius: 5px;
+    max-width: 378px;
+    min-width: 378px;
+    max-height: 64px;
+    margin-top: 10px;
+    margin-right: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "PT sans";
+    color: #384685;
+}
+.heart2{
+    cursor: pointer;
+}
+
+.blue-button:hover{
+    background-color: #384685;
+    color: white;
+}
+
+.colors-section{
+display: flex;
+margin-top: 19px;
+}
+.colors-section>div{
+    height: 40px;
+    width: 40px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+.colors-section div:nth-child(1){
+    background-color: #F3F3F3;
+    border: solid 2px #384685;
+}
+.colors-section>div:nth-child(2){
+    background-color: #F2EFDE;
+}
+.colors-section>div:nth-child(3){
+    background-color: #6D3D49;
+}
+.colors-section>div:nth-child(4){
+    background-color: #877B6D;
+}
+.colors-section>div:nth-child(5){
+    background-color: #80B098;
+}
+.colors-section>div:nth-child(6){
+    background-color: #BC8370;
+}
+.colors-section>div:nth-child(7){
+    background-color: #242A36;
+}
+.colorsLabel{
+    margin-top: 2%;
+}
+
+.props-secions>h2{
+    font-size: 18px;
+    font-family: "PT sans";
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.props-secions>p{
+    border-bottom: solid #384685 3px;
+    width: 569px;
+    padding-top: 16px;
+    margin-bottom: 40px;
+}
+
+.prop-border-2{
+    border-bottom: #E2E2E2 solid 1px;
+    width: 569px;
+    margin-bottom: 15px ;
+    margin-top: 15px;
+}
+
+.showALl{
+    background-color: #F3F3F3;
+    width: 568px;
+    height: 46px;
+    border: none;
+    color: #384685;
+    margin-top: 10px;
+}
