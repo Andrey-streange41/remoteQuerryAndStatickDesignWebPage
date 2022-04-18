@@ -8,15 +8,30 @@
 }
 
 .page-category-ul>li{
- padding-right: 59px;
+ padding-right: 10px;
  font-family: "PT sans";
  font-weight: 700;
+ margin-right: 4%;
  
 }
 
 .page-category-ul>li>a{
     text-decoration: none;
     color: #564D4D;
+}
+
+
+
+.underlineBorder{
+    position: relative;
+    border-bottom: #384685 solid 4px;
+    padding-bottom: 30px;
+    margin-bottom: -35px;
+}
+
+
+.borderOff{
+    border: none;
 }
 
 .greyLine{

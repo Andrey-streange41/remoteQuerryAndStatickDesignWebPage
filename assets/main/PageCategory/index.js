@@ -2,14 +2,24 @@ class PageCategory{
     render(){
         const section = document.createElement('section');
         section.classList.add('page-category');
+        
 
         const ul = document.createElement('ul');
         ul.classList.add("page-category-ul");
 
         for (let i = 0; i < 5; i++) {
             const li = document.createElement('li');
+            
             const a = document.createElement('a');
-
+            a.addEventListener('click', (e)=>{
+                
+                for (let i = 0; i < 5; i++) {
+                     console.log(e.target.parentElement.parentElement.children[i])
+                     e.target.parentElement.parentElement.children[i].className = 'borderOff';
+                }
+                e.target.parentElement.className = 'underlineBorder';
+                
+            })
             if(i===0)
                 a.textContent ='ДОСТУПНЫЕ МОДУЛИ';
             else if(i===1)
