@@ -35,6 +35,8 @@ class CatalogItem
         presentPicture.alt ='presentPicture';
         presentPicture.style.maxHeight = '250px';
         presentPicture.style.height = '250px';
+        presentPicture.style.width= '300px';
+
 
         const itemName = document.createElement('h6');
         itemName.classList.add('h6-item');
