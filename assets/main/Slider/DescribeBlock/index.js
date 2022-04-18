@@ -1,8 +1,8 @@
 class DescribeBlock{
     constructor(){
-
+        this.heartStatus =false;
     }
-
+    heartStatus =false;
     render(){
         const descrBlock = document.createElement('section');
         descrBlock.classList.add('descr-block');
@@ -64,6 +64,17 @@ class DescribeBlock{
         imgHeart.src='assets/Images/redHeart.png';
         imgHeart.alt = 'heartPicture';
         imgHeart.classList.add('heart2');
+        imgHeart.addEventListener('click', ()=>{
+            if(this.heartStatus ===false){
+                imgHeart.src = 'assets/Images/fillHeart.png';
+                this.heartStatus = true;
+            }
+            else{
+                imgHeart.src = 'assets/Images/redHeart.png';
+                this.heartStatus = false;
+            }
+                
+        });
 
         row4.append(buttonBuy.render());
         row4.append(imgHeart);
