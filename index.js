@@ -1,5 +1,6 @@
 
 const body = document.getElementById('body');
+
 const header = new PageHeader();
 body.append( header.render());
 const loc = new CurrentLocation();
