@@ -1,7 +1,13 @@
 .page-category{
-    margin-top: 220px;
     margin-left: 220px;
+    margin-top:50px;
 }
+
+.page-category-margin-top{
+    margin-top: 220px;
+}
+
+
 
 .page-category-ul{
     display: flex;

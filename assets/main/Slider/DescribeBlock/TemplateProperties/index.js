@@ -27,9 +27,13 @@ class TemplateProperties{
            if(!this.statusButton){
             addInfoBlock.style.display = 'block';
               this.statusButton = true;
+              const pageCategory = document.getElementById('pageCategory');
+              pageCategory.classList.add('page-category-margin-top');
            }
            else{
             addInfoBlock.style.display = 'none';
+            const pageCategory = document.getElementById('pageCategory');
+            pageCategory.classList.remove("page-category-margin-top");
             this.statusButton = false;
            }
 

@@ -2,7 +2,7 @@ class PageCategory{
     render(){
         const section = document.createElement('section');
         section.classList.add('page-category');
-        
+        section.id = 'pageCategory';
 
         const ul = document.createElement('ul');
         ul.classList.add("page-category-ul");
