@@ -36,7 +36,7 @@ class AboutUs{
         const button = document.createElement('order-button');
         button.classList.add('order-button');
         button.textContent='Заказать звонок';
-
+        
 
         
         aboutUsSection.append(logo);

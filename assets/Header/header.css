@@ -133,6 +133,10 @@ margin-right: 230px;
     min-width: 177px;
     cursor: pointer;
 }
+.order-button:hover{
+    background-color: #E13B3F;
+    color: white;
+}
 
 .geo::before{
 content: url(../Images/geo.svg);
